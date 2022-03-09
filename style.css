@@ -18,11 +18,73 @@ body{
 .Home{
     position: relative;
     top: 30%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
-.ImportantMessage{
+.HomeButton{
+    top: -30px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.ImportantMessage, .AboutMessage, .ProjectMessage{
     position: relative;
     top: 100px;
     text-align: center;
     font-size: 25px;
+}
+.About{
+    position: relative;
+    top: 35%;
+    padding-left: 11%;
+    font-size: 25px;
+}
+.About>a{
+    position: absolute;
+    z-index: 9999;
+}
+.Home>a{
+    height: 100px;
+    position: absolute;
+    z-index: 9999;
+}
+.AllProjects{
+    position: absolute;
+    top: 35%;
+    padding-left: 15%;
+    font-size: 25px;
+    display: inline-block;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover {
+  color: lawngreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+width: 100%;
+overflow: auto;
+box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.AllProjects:hover .dropdown-content {
+display: block;
+}
+.dropdown-content a {
+display: block;
+background-color: #FFFFFF;
+color: #000000;
+padding: 5px;
+text-decoration: none;
+}
+.dropdown-content a:hover {
+color: #FFFFFF;
+background-color: #00A4BD;
+display: block;
 }
