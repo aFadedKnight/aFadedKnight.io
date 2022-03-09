@@ -12,7 +12,7 @@ body{
     left: 0px;
     height: 100px;
     width: 100%;
-    background-color: green;
+    background-color: #285904;
     font-size: 30px;
 }
 .Home{
@@ -62,14 +62,14 @@ a:visited{
     color: white;
 }
 a:hover {
-  color: lawngreen;
+  color: #9BF526;
   background-color: transparent;
   text-decoration: underline;
 }
 .dropdown-content {
 display: none;
 position: absolute;
-width: 100%;
+width: 50%;
 overflow: auto;
 z-index: 9999;
 background-color: white;
@@ -81,7 +81,7 @@ position: absolute;
 }
 .dropdown-content a {
 display: block;
-background-color: darkgreen;
+background-color: #374031;
 color: white;
 padding: 5px;
 text-decoration: none;
@@ -91,11 +91,13 @@ font-weight: 550;
 font-stretch: ultra-condensed;
 }
 .dropdown-content a:hover {
-color: darkgreen;
-background-color: lawngreen;
+color: #374031;
+background-color: #9BF526;
 display: block;
+text-align: center;
 }
 .Categories{
-    background-color: darkgreen;
+    background-color: #374031;
     color: white;
+    text-align: center;
 }
