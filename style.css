@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(61, 61, 61);
+    height: 100%;
+    width: 100%;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 16px;
+}
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    font-size: 30px;
+}
+.Home{
+    position: relative;
+    top: 30%;
+    padding-left: 5%;
+}
+.ImportantMessage{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 25px;
+}
