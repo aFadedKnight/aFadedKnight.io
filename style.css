@@ -3,7 +3,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
 }
 .header{
@@ -60,11 +60,11 @@ body{
     width: 400px;
 }
 a:link {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 a:visited{
-    color: white;
+    color: #ffffff;
 }
 a:hover {
   color: #9BF526;
@@ -77,8 +77,8 @@ a:hover {
     width: 50%;
     overflow: auto;
     z-index: 9999;
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 .AllProjects:hover .dropdown-content {
     display: block;
@@ -86,11 +86,11 @@ a:hover {
 }
 .dropdown-content a {
     display: block;
-    background-image: linear-gradient(rgb(32, 32, 32), black);
+    background-image: linear-gradient(rgb(32, 32, 32), #000000);
     color: white;
     padding: 5px;
     text-decoration: none;
-    border-top: 2px solid white;
+    border-top: 2px solid #ffffff;
     font-weight: 550;
     font-stretch: condensed;
 }
@@ -102,8 +102,8 @@ a:hover {
     font-weight: 700;
 }
 .Categories{
-    background-image: linear-gradient(rgb(32, 32, 32), black);
-    color: white;
+    background-image: linear-gradient(rgb(32, 32, 32), #000000);
+    color: #ffffff;
     text-align: center;
     font-weight: 550;
     font-stretch: condensed;
