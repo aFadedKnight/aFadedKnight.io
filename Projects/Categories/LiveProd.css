@@ -9,7 +9,7 @@ a:hover{
     padding: 5px;
 }
 .LiveProd1{
-    width: 500px;
+    width: 700px;
 }
 .LPProject1{
     position: relative;
@@ -29,7 +29,7 @@ a:hover{
     top: 0px;
     left: 0px;
     display: block;
-
+    padding-top: 25%;
 }
 .overlay1:hover{
     width: 100%;
@@ -43,7 +43,7 @@ a:hover{
     padding-top: 25%;
 }
 .LiveProd2{
-    width: 500px;
+    width: 700px;
 }
 .LPProject2{
     position: relative;
