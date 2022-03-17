@@ -61,10 +61,9 @@ body{
 }
 .AllProjects{
     position: relative;
-    top: 30%;
+    top: 35%;
     left: 220px;
     font-size: 25px;
-    display: inline-block;
     width: 400px;
 }
 a:link {
