@@ -16,12 +16,12 @@ body{
     font-size: 30px;
 }
 .Foot{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100px;
     background-image: linear-gradient(#2f6905,#1f4703);
     font-size: 30px;
-    bottom: -1000px;
+    bottom: -500px;
     left: -7px;
     padding-top: 30px;
     padding-left: 10px;
@@ -42,6 +42,7 @@ body{
     top: 100px;
     text-align: center;
     font-size: 25px;
+    padding: 10px;
 }
 .About{
     position: relative;
