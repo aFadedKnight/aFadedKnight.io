@@ -16,12 +16,12 @@ body{
     font-size: 30px;
 }
 .Foot{
-    position: absolute;
+    position: relative;
+    bottom: -200px;  
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-image: linear-gradient(#2f6905,#1f4703);
     font-size: 30px;
-    bottom: -500px;
     left: -7px;
     padding-top: 30px;
     padding-left: 10px;
@@ -40,9 +40,11 @@ body{
 .ImportantMessage, .AboutMessage, .ProjectMessage, .CategoryMessage{
     position: relative;
     top: 100px;
-    text-align: center;
-    font-size: 25px;
     padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;  
 }
 .About{
     position: relative;
