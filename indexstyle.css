@@ -1,3 +1,6 @@
+.ImportantMessage {
+  font-size: 40px;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
