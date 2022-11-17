@@ -23,6 +23,7 @@ p {
 }
 .FollowParagraph {
     width: 50%;
+	padding: 2%;
 }
 /* Slideshow container */
 .slideshow-container {

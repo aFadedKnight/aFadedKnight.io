@@ -8,20 +8,20 @@ a:hover{
 .Project{
     padding: 5px;
 }
-.LiveProd1{
+.LiveProd1, .LiveProd2, .LiveProd3{
     width: 700px;
 }
-.LPProject1{
+.LPProject{
     position: relative;
     display:inline-block;
     top: 200px;
     overflow: hidden;
 }
-.overlay1{
+.overlay1, .overlay2, .overlay3{
     display: none;
     font-size: 50px;
 }
-.LiveProd1:hover + .overlay1{
+.LiveProd1:hover + .overlay1, .LiveProd2:hover + .overlay2, .LiveProd3:hover + .overlay3{
     width:100%;
     height:100%;
     background:rgba(0, 0, 0, 0.5);
@@ -31,41 +31,7 @@ a:hover{
     display: block;
     padding-top: 25%;
 }
-.overlay1:hover{
-    width: 100%;
-    height: 100%;
-    background:rgba(0, 0, 0, 0.5);
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    display: block;
-    text-align: center;
-    padding-top: 25%;
-}
-.LiveProd2{
-    width: 700px;
-}
-.LPProject2{
-    position: relative;
-    display:inline-block;
-    top: 200px;
-    overflow: hidden;
-}
-.overlay2{
-    display: none;
-    font-size: 50px;
-}
-.LiveProd2:hover + .overlay2{
-    width:100%;
-    height:100%;
-    background:rgba(0, 0, 0, 0.5);
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    display: block;
-    padding-top: 25%;
-}
-.overlay2:hover{
+.overlay1:hover, .overlay2:hover, .overlay3:hover{
     width: 100%;
     height: 100%;
     background:rgba(0, 0, 0, 0.5);
