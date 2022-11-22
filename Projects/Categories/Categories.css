@@ -8,10 +8,10 @@ a:hover{
 .Project{
     padding: 5px;
 }
-.LiveProd1, .LiveProd2, .LiveProd3{
+.Project1, .Project2, .Project3{
     width: 700px;
 }
-.LPProject{
+.ProjectBlock{
     position: relative;
     display:inline-block;
     top: 200px;
@@ -21,7 +21,7 @@ a:hover{
     display: none;
     font-size: 50px;
 }
-.LiveProd1:hover + .overlay1, .LiveProd2:hover + .overlay2, .LiveProd3:hover + .overlay3{
+.Project1:hover + .overlay1, .Project2:hover + .overlay2, .Project3:hover + .overlay3{
     width:100%;
     height:100%;
     background:rgba(0, 0, 0, 0.5);
