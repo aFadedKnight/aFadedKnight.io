@@ -9,13 +9,21 @@ a:hover{
     padding: 5px;
 	display:inline-block;
 }
+.Projects{
+    padding: 3%;
+	display:inline-block;
+	background-color: rgb(80, 80, 80);
+	width: 80%;
+	border-radius: 2%;
+	position: relative;
+	top: 200px;
+}
 .Project1, .Project2, .Project3, .Project4, .Project5, .Project6{
     width: 600px;
 }
 .ProjectBlock{
     position: relative;
     display:inline-block;
-    top: 200px;
     overflow: hidden;
 }
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
@@ -45,7 +53,11 @@ a:hover{
 }
 .CategoryMessage{
     font-size: 30px;
-	height: 30px;
+	height: 150px;
+	width: 100%;
+	background-color: rgb(20, 20, 20);
+	position: absolute;
+	left: 0px;
 }
 .Center {
     width: 95%;
