@@ -18,6 +18,11 @@ a:hover{
 	position: relative;
 	top: 200px;
 }
+.AllProjectsBG {
+	background-image: url("imgs/UNCGPano.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
 .Project1, .Project2, .Project3, .Project4, .Project5, .Project6{
     width: 600px;
 }
@@ -55,9 +60,9 @@ a:hover{
     font-size: 30px;
 	height: 150px;
 	width: 100%;
-	background-color: rgb(20, 20, 20);
 	position: absolute;
 	left: 0px;
+	background-color: rgba(10,10,10,0.60)
 }
 .Center {
     width: 95%;

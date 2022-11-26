@@ -54,7 +54,30 @@ a:hover{
     font-size: 30px;
 	height: 150px;
 	width: 100%;
-	background-color: rgb(20, 20, 20);
+	background-color: rgba(10,10,10,0.60);
 	position: absolute;
 	left: 0px;
+}
+.Overflow {
+	overflow: hidden;
+}
+.AnimationsBG {
+	background-image: url("../../imgs/MiniGolfBall.png");
+	background-size: cover;
+	background-position: center;
+}
+.RendersBG {
+	background-image: url("../../imgs/nicky-jushchyshyn-assembled-2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.LiveProdBG {
+	background-image: url("../../imgs/UNCGPano.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.OtherBG {
+	background-image: url("../../imgs/UNCGPano.jpg");
+	background-size: cover;
+	background-position: bottom;
 }
