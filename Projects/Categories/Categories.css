@@ -13,7 +13,8 @@ a:hover{
 	display:inline-block;
 	background-color: rgb(80, 80, 80);
 	width: 80%;
-	border-radius: 2%;
+	max-width: 800px;
+	border-radius: 20px;
 	position: relative;
 	top: 200px;
 }
