@@ -1,24 +1,41 @@
 body{
-    background-color: rgb(49, 49, 49);
-    height: 100%;
-    width: 100%;
+    width: 99.2%;
+	min-height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
     font-size: 16px;
+	position: relative;
+	left: -8px;
+	top: -34px;
+}
+html {
+    width: 100vw;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: rgba(49, 49, 49,1);
+	background-image: url('imgs/LeftSide.png'), url('imgs/RightSide.png');
+	background-repeat: repeat-y;
+	background-position: left, right;
+	background-size: 400px;
+}
+head {
+	background-color: aqua;
+	width: 100%;
+	height: 100%;
 }
 .header{
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(#2f6905,#1f4703);
     font-size: 30px;
 }
 .Foot{
     position: relative;
     bottom: -200px;  
-    width: 100%;
+    width: 100vw;
     height: 75px;
     background-image: linear-gradient(#2f6905,#1f4703);
     font-size: 30px;
