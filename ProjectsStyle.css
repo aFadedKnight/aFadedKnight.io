@@ -24,6 +24,7 @@ body{
 	display:inline-block;
 	background-color: rgb(80, 80, 80);
 	width: 80%;
+	max-width: 1250px;
 	border-radius: 2%;
 	position: relative;
 	top: 200px;
@@ -41,6 +42,7 @@ body{
     position: relative;
     display:inline-block;
     overflow: hidden;
+	padding: 10px;
 }
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
     display: none;
