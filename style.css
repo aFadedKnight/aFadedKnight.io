@@ -34,12 +34,12 @@ head {
 }
 .Foot{
     position: relative;
-    bottom: -200px;  
+	clear: both;
+	margin-top: 300px;
     width: 100vw;
     height: 75px;
     background-image: linear-gradient(#2f6905,#1f4703);
     font-size: 30px;
-    left: -7px;
     padding-top: 30px;
     padding-left: 10px;
 }
