@@ -19,16 +19,19 @@ a:hover{
 	top: 200px;
 }
 .Project1, .Project2, .Project3{
-    width: 700px;
+	max-width: 600px;
+	width: 100%;
 }
 .ProjectBlock{
     position: relative;
     display:inline-block;
     overflow: hidden;
+	max-width: 500px;
+	width: 80%;
 }
 .overlay1, .overlay2, .overlay3{
     display: none;
-    font-size: 50px;
+    font-size: 250%;
 }
 .Project1:hover + .overlay1, .Project2:hover + .overlay2, .Project3:hover + .overlay3{
     width:100%;

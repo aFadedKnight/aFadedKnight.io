@@ -47,7 +47,7 @@ body{
 }
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
     display: none;
-    font-size: 50px;
+    font-size: 250%;
 }
 .Project1:hover + .overlay1, .Project2:hover + .overlay2, .Project3:hover + .overlay3, .Project4:hover + .overlay4, .Project5:hover + .overlay5, .Project6:hover + .overlay6 {
     width:100%;
@@ -71,7 +71,6 @@ body{
     padding-top: 25%;
 }
 .CategoryMessage{
-    font-size: 30px;
 	height: 150px;
 	width: 100%;
 	position: absolute;
