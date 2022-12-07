@@ -15,12 +15,7 @@ body{
 	left: -8px;
 	top: -8px;
 }
-.Project{
-    padding: 5px;
-	display:inline-block;
-}
 .Projects{
-    padding: 1%;
 	display:inline-block;
 	background-color: rgb(80, 80, 80);
 	width: 80%;
@@ -36,13 +31,19 @@ body{
 	width: 100vw;
 }
 .Project1, .Project2, .Project3, .Project4, .Project5, .Project6{
-    width: 600px;
+    max-width: 600px;
+	width: 100%;
+	display: inline;
 }
 .ProjectBlock{
     position: relative;
     display:inline-block;
     overflow: hidden;
 	padding: 10px;
+	max-width: 600px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
     display: none;
