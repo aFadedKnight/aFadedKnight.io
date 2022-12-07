@@ -78,7 +78,7 @@ a:hover{
 	background-position: bottom;
 }
 .OtherBG {
-	background-image: url("../../imgs/UNCGPano.jpg");
+	background-image: url("../../imgs/OverlayCode.png");
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
 }
