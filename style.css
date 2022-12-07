@@ -142,3 +142,31 @@ a:hover {
     height: 40px;
     padding-top: 5px;
 }
+.Center {
+    width: 95%;
+    padding-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Spacer {
+	height: 100px;
+}
+.ProjectImage {
+    position: relative;
+    top: 100px;
+    width: 40%;
+	padding: 2%;
+}
+.FollowParagraph {
+    width: 50%;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+}
+p {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    font-size: 25px;
+}
