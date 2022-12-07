@@ -41,7 +41,7 @@ body{
 }
 .overlay1, .overlay2, .overlay3{
     display: none;
-    font-size: 250%;
+    font-size:calc(15px + 1.5vw);
 }
 .Project1:hover + .overlay1, .Project2:hover + .overlay2, .Project3:hover + .overlay3{
     width:100%;
@@ -71,6 +71,11 @@ body{
 	background-color: rgba(10,10,10,0.60);
 	position: absolute;
 	left: 0px;
+}
+.CategoryTitle {
+	position: relative;
+	top: -20px;
+	font-size:calc(25px + 1.5vw);
 }
 .Overflow {
 	overflow: hidden;
