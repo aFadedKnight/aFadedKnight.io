@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATEM Model</title>
+</head>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../ProjectPages/ProjectPages.css">
+    <body>
+        <header class="header">
+            <div class="Home"><a href="../../index"><img class="HomeButton" src="../../imgs/KnightLogo4kTransparent.png" width="100" height="100" top="-30px"></a></div>
+            <div class="About"><a href="../../about">About</a></div>
+            <div class="AllProjects">
+                <a href="../../projects" style="text-decoration: underline;">Projects</a>
+                <div class="dropdown-content">
+                <div class="Categories">Categories</div>
+				<a href="../../projects">All Projects</a>
+                <a href="../Categories/LiveProduction">Live Production</a>
+                <a href="../Categories/3DAnimations">3D Animations</a>
+                <a href="../Categories/3DRenders">3D Renders</a>
+                <a href="../Categories/Coding-Other">Composites/Code/Photos</a>
+                </div>
+            </div>
+        </header>
+        <div class="body">
+			<div class="BacktoAll"></div>
+<div class="Heading">
+    <h1>Using Unreal (8/1/23)</h1>
+            </div>
+            <div class="Center">
+                <p class="FollowParagraph">Now that i had the model finished I was able to bring it into unreal to be a representation of a physical ATEM that is on the network or at least able to be connected to in any way. I did end up sticking to using companion as a way to connect the real world ATEM to the one in unreal and vice versa.</p>
+            </div>
+			
+			<div class="Center"><iframe width="560" height="315" src="https://www.youtube.com/embed/InUiz1WycXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+			<div class="Center">
+				<p class="FollowParagraph">Luckily for me things worked out pretty smooth. I was able to get a lot of the function that I was looking at getting and was able to record a video showcasing the functionality that it has already. I didn't know before I started exactly how I was going to get everything working exactly but I knew I would use OSC to communicate between unreal and companion and started there.</p>
+            </div>
+			<div class="Center">
+				<p class="FollowParagraph">I was able to just set up triggers inside of companion and that would send OSC commands into unreal which would then update the material for the buttons to either glow red, green, white, or not glow at all. In unreal any time I have something update in there on that ATEM I send out an OSC message which will activate a button in companion to then update the physical one. It isn't ideal having this middle man but as of right now I don't have a better way of getting around that but that would be something I want to not have.</p>
+            </div>
+			<div class="Center">
+				<p class="FollowParagraph">As for all of the voice commands stuff I knew how to set that up already and I used the meta plugin for unreal which allows for these commands. I am not too happy with it though and may keep exploring alternatives because as seen in the youtube video, there is a lot of delay from when I actually give a command and when the plugin is able to get it processed. I do like the control and how good of a job it does otherwise which is why I went with that for now but in a production setting I can't see it being the best solution.</p>
+            </div>
+			<div class="Center">
+				<p class="FollowParagraph">I am glad I was able to get ahead of things a little bit and make this progress. There are still a few more small things I want to get going like linking up all of the buttons including the mics, as well as adding more voice commands to maybe control some of those audio sources. </p>
+            </div>
+			<div class="Center">
+				<p class="FollowParagraph">When I return from my trip in LA I might start to look into adding a second ATEM model and allowing that to also be voice controlled and get all of the same treatments as the current one. At the very least I want to be able to have voice commands and realtime visualization for the camera switching aspect of the next one I do. I amd likely going to do the larger ATEM Mini or maybe a constilation if I can get access to testing with one.</p>
+            </div>
+			</div>
+        <footer class="Foot">Nicky Jushchyshyn</footer>
+    </body>
+</html>
