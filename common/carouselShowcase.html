@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="../css/carousel.css">
+<body>
+    <div class="FrontItems">
+        <div class="swiper swiper-container-1" id="swiper-container-1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a class="Picture">
+                        <img src="../imgs/MiniGolfBall.png" alt="">
+                    </a>
+                </div>
+        
+                <!-- Craft Item 2 -->
+                <div class="swiper-slide">
+                    <a class="Picture">
+                        <img src="../imgs/LakeHouseNight.png" alt="">
+                    </a>
+                </div>
+        
+                <!-- Craft Item 3 -->
+                <div class="swiper-slide">
+                    <a class="Picture">
+                        <img src="../imgs/LakeHouseEvening.png" alt="">
+                    </a>
+                </div>
+        
+                <!-- Craft Item 4 -->
+                <div class="swiper-slide">
+                    <a class="Picture">
+                        <img src="../imgs/MiniGolfBall.png" alt="">
+                    </a>
+                </div>
+        
+                <!-- Craft Item 5 -->
+                <div class="swiper-slide">
+                    <a class="Picture">
+                        <img src="../imgs/MiniGolfBall.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="7000"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <script>
+        var swiper1 = new Swiper('.swiper-container-1', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: true,
+        autoplay: true,
+        effect: 'fade', // Set the fade effect
+        fadeEffect: {
+            crossFade: true // Enable crossfade for a smoother transition
+        },
+    });
+    </script>
+</body>
+</html>

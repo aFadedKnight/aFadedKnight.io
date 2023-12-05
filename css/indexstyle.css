@@ -1,0 +1,76 @@
+body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgba(49, 49, 49,1);
+  background-image: url('../imgs/LeftSide.png'), url('../imgs/RightSide.png');
+  background-repeat: repeat-y;
+  background-position: left, right;
+  background-size: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.DemoReel {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ReelText {
+  padding-bottom: 20px;
+}
+
+.ReelVideo {
+  width: 60%;
+  max-width: 800px; /* Set a maximum width for responsiveness */
+  margin: 0 auto;
+}
+
+.VideoContainer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+.Video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ShortBio {
+  width: 75%;
+  padding-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ShortBio img {
+  max-width: 600px;
+  min-width: 100px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.BioText {
+  width: 50%;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+  color: white;
+}
+
+.Blog {
+  text-align: center;
+  padding: 40px;
+}
+
+.Blog a {
+  color: #a3ff2b;
+}
