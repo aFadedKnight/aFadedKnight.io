@@ -1,15 +1,3 @@
-body {
-  width: 100vw;
-  height: 100%;
-  overflow-x: hidden;
-  background-color: rgba(49, 49, 49,1);
-  background-image: url('../imgs/LeftSide.png'), url('../imgs/RightSide.png');
-  background-repeat: repeat-y;
-  background-position: left, right;
-  background-size: 400px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .DemoReel {
   text-align: center;
   color: white;
