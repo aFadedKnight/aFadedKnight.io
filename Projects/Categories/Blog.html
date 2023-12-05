@@ -6,65 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 </head>
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="Categories.css">
+    <link rel="stylesheet" href="../../css/sitestyle.css">
+    <script type="module" src="../../common/headerpages.js"></script>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/Categories.css">
     <body>
-        <header class="header">
-            <div class="Home"><a href="../../index"><img class="HomeButton" src="../../imgs/KnightLogo4kTransparent.png" width="100" height="100" top="-30px" alt="User Knight logo profile picture"></a></div>
-            <div class="About"><a href="../../about">About</a></div>
-            <div class="AllProjects">
-                <a href="../../projects" style="text-decoration: underline;">Projects</a>
-                <div class="dropdown-content">
-                <div class="Categories">Categories</div>
-				<a href="../../projects">All Projects</a>
-                <a href="../Categories/LiveProduction">Live Production</a>
-                <a href="../Categories/3DAnimations">3D Animations</a>
-                <a href="../Categories/3DRenders">3D Renders</a>
-                <a href="../Categories/Coding-Other">Composites/Code/Photos</a>
-                </div>
-            </div>
-        </header>
-        <div class="Overflow">
-          <div class="CategoryMessage AnimationsBG"></div>
+      <site-header></site-header>
+      <div class="banner">
+        <img src="../../imgs/ATEMModel.png" alt="Banner Image">
+        <div class="overlay"></div>
+    </div>
+    <h1 class="CategoryTitle">Blog Posts</h1>
+    <div class="Projects">
+      <a class="Project" href="../Blog/Reflection">
+        <img src="../../imgs/streaming-still.jpg" alt="">
+        <div class="Project-Name">
+            <h3>Reflection + Doc</h3>
         </div>
-		<div class="CategoryMessage">
-		  <h1 class="CategoryTitle">Blog Posts</h1>
+      </a>
+      <a class="Project" href="../Blog/UsingUnreal">
+        <img src="../../imgs/ATEMControl.png" alt="">
+        <div class="Project-Name">
+            <h3>Using Unreal</h3>
         </div>
-        <div class="body">
-          <div class="Projects">
-			  <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/streaming-still.jpg" alt="" class="Project1">
-                <a class="overlay1" href="../Blog/Reflection">Reflection + Doc</a>
-                </div>
-            </div>
-			  <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/ATEMControl.png" alt="" class="Project3">
-                <a class="overlay3" href="../Blog/UsingUnreal">Using Unreal</a>
-                </div>
-            </div>
-			  <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/ATEMModel.png" alt="" class="Project2">
-                <a class="overlay2" href="../Blog/ATEMModel">ATEM Model</a>
-                </div>
-            </div>
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/streaming-still.jpg" alt="" class="Project1">
-                <a class="overlay1" href="../Blog/ProjectIdea">Prjoect Idea</a>
-                </div>
-            </div>
-          </div>
+      </a>
+      <a class="Project" href="../Blog/ATEMModel">
+        <img src="../../imgs/ATEMModel.png" alt="">
+        <div class="Project-Name">
+            <h3>ATEM Model</h3>
         </div>
-		<div class="Spacer"></div>
-	<div class="Spacer"></div>
-		<div class="Spacer"></div>
-		<div class="Center">
-		  <div class="FollowParagraph" style="font-size: 25px">All of the post are in order of date posted going from the top down that top being the Newest posts and the bottom being the oldest posts. The idea of this blog is for me to post work for my class and and showing all of my progress as I go on. Hopefully by the end I will have a project which could also be shared and expiremented with.</div>
+      </a>
+      <a class="Project" href="../Blog/ProjectIdea">
+        <img src="../../imgs/streaming-still.jpg" alt="">
+        <div class="Project-Name">
+            <h3>Project Idea</h3>
         </div>
-	<footer class="Foot">Nicky Jushchyshyn</footer>
+      </a>
+    </div>
     </body>
+    <script type="module" src="../../js/headermenu.js"></script>
 </html>
             

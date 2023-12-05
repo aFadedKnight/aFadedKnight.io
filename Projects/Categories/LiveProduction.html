@@ -6,62 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Production</title>
 </head>
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="Categories.css">
+    <link rel="stylesheet" href="../../css/sitestyle.css">
+    <script type="module" src="../../common/headerpages.js"></script>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/Categories.css">
     <body>
-        <header class="header">
-            <div class="Home"><a href="../../index"><img class="HomeButton" src="../../imgs/KnightLogo4kTransparent.png" width="100" height="100" top="-30px" alt="User Knight logo profile picture"></a></div>
-            <div class="About"><a href="../../about">About</a></div>
-            <div class="AllProjects">
-                <a href="../../projects" style="text-decoration: underline;">Projects</a>
-                <div class="dropdown-content">
-                <div class="Categories">Categories</div>
-				<a href="../../projects">All Projects</a>
-                <a href="LiveProduction">Live Production</a>
-                <a href="3DAnimations">3D Animations</a>
-                <a href="3DRenders">3D Renders</a>
-                <a href="Coding-Other">Composites/Code/Photos</a>
-                </div>
-            </div>
-        </header>
-		<div class="CategoryMessage LiveProdBG"></div>
-		<div class="CategoryMessage">
-            <h1 class="CategoryTitle">Live Production</h1>
+      <site-header></site-header>
+      <div class="banner">
+        <img src="../../imgs/UNCGPano.jpg" alt="Banner Image">
+        <div class="overlay"></div>
+    </div>
+    <h1 class="CategoryTitle">Live Production</h1>
+    <div class="Projects">
+      <a class="Project" href="../ProjectPages/LakeHouse">
+        <img src="../../imgs/LakeHouseEvening.png" alt="">
+        <div class="Project-Name">
+            <h3>Lakehouse Virtual Production</h3>
         </div>
-        <div class="body">
-          <div class="Projects">
-			 <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/LakeHouseEvening.png" alt="" class="Project1">
-                <a class="overlay1" href="../ProjectPages/LakeHouse">Lake House ICVFX</a>
-                </div>
-              </div>
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/EFVSDrexel.png" alt="" class="Project1">
-                <a class="overlay1" href="../ProjectPages/VirtualStudio">EFVS</a>
-                </div>
-              </div>
-			  <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/MatchupPreview.png" alt="" class="Project2">
-                <a class="overlay2" href="../ProjectPages/BroadcastAutomator">Broadcast Automator</a>
-                </div>
-              </div>
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/CRLChamberMatchup.png" alt="" class="Project3">
-                <a class="overlay3" href="../ProjectPages/CRLHypeChamber">CRL Hype Chamber</a>
-                </div>
-              </div>
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/nicky-jushchyshyn-unknown.jpg" alt="" class="Project1">
-                <a class="overlay1" href="../ProjectPages/Overlays">Overlays</a>
-                </div>
-              </div>
+      </a>
+      <a class="Project" href="../ProjectPages/VirtualStudio">
+          <img src="../../imgs/HighresScreenshot00005.png" alt="">
+          <div class="Project-Name">
+              <h3>Virtual Production Studio</h3>
           </div>
+      </a>
+      <a class="Project" href="../ProjectPages/CRLHypeChamber">
+        <img src="../../imgs/CRLChamberMatchup.png" alt="">
+        <div class="Project-Name">
+            <h3>CRL Hype Chamber</h3>
         </div>
-        <footer class="Foot">Nicky Jushchyshyn</footer>
+      </a>
+      <a class="Project" href="../ProjectPages/Overlays">
+        <img src="../../imgs/PostGame.png" alt="">
+        <div class="Project-Name">
+            <h3>Rocket League Overlay</h3>
+        </div>
+      </a>
+    </div>
     </body>
+    <script type="module" src="../../js/headermenu.js"></script>
 </html>
+            
