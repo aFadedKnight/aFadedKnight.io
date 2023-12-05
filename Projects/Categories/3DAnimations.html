@@ -6,53 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Animations</title>
 </head>
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="Categories.css">
+    <link rel="stylesheet" href="../../css/sitestyle.css">
+    <script type="module" src="../../common/headerpages.js"></script>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/Categories.css">
     <body>
-        <header class="header">
-            <div class="Home"><a href="../../index"><img class="HomeButton" src="../../imgs/KnightLogo4kTransparent.png" width="100" height="100" top="-30px" alt="User Knight logo profile picture"></a></div>
-            <div class="About"><a href="../../about">About</a></div>
-            <div class="AllProjects">
-                <a href="../../projects" style="text-decoration: underline;">Projects</a>
-                <div class="dropdown-content">
-                <div class="Categories">Categories</div>
-				<a href="../../projects">All Projects</a>
-                <a href="LiveProduction">Live Production</a>
-                <a href="3DAnimations">3D Animations</a>
-                <a href="3DRenders">3D Renders</a>
-                <a href="Coding-Other">Composites/Code/Photos</a>
-                </div>
-            </div>
-        </header>
-        <div class="Overflow">
-          <div class="CategoryMessage AnimationsBG"></div>
-        </div>
-		<div class="CategoryMessage">
-		  <h1 class="CategoryTitle">3D Animation Projects</h1>
-        </div>
-        <div class="body">
-          <div class="Projects">
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/MiniGolfBall.png" alt="" class="Project1">
-                <a class="overlay1" href="../ProjectPages/MiniGolfRobot">Mini Golf Robot</a>
-                </div>
-            </div>
-            <div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/AlongForTheRide.png" alt="" class="Project2">
-                <a class="overlay2" href="../ProjectPages/AlongForTheRide">Along for the Ride</a>
-                </div>
-            </div>
-			<div class="Project">
-              <div class="ProjectBlock">
-                <img src="../../imgs/MonopolyCar.png" alt="" class="Project3">
-                <a class="overlay3" href="../ProjectPages/MonopolyCars">Monopoly Cars</a>
-                </div>
-            </div>
+      <site-header></site-header>
+      <div class="banner">
+        <img src="../../imgs/MiniGolfBall.png" alt="Banner Image">
+        <div class="overlay"></div>
+    </div>
+
+      <h1 class="CategoryTitle">3D Animations</h1>
+      <div class="Projects">
+        <a class="Project" href="../ProjectPages/MiniGolfRobot.html">
+          <img src="../../imgs/MiniGolfBall.png" alt="">
+          <div class="Project-Name">
+              <h3>Mini Golf Robot</h3>
           </div>
-        </div>
-        <footer class="Foot">Nicky Jushchyshyn</footer>
+      </a>
+        <a class="Project" href="../ProjectPages/AlongForTheRide.html">
+            <img src="../../imgs/AlongForTheRide.png" alt="">
+            <div class="Project-Name">
+                <h3>Along For The Ride</h3>
+            </div>
+        </a>
+        <a class="Project" href="../ProjectPages/MonopolyCars.html">
+          <img src="../../imgs/MonopolyCar.png" alt="">
+          <div class="Project-Name">
+              <h3>Monopoly</h3>
+          </div>
+      </a>
+    </div>
     </body>
+    <script type="module" src="../../js/headermenu.js"></script>
 </html>
             

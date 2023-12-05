@@ -8,14 +8,15 @@
 </head>
     <link rel="stylesheet" href="css/indexstyle.css">
     <link rel="stylesheet" href="css/sitestyle.css">
-    <script type="module" src="js/loader.js"></script>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <script type="module" src="common/headermain.js"></script>
+    
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/carousel.css">
     <body>
-        <script>fetch('common/header.html').then(response => response.text()).then(data => {
-                    document.body.insertAdjacentHTML('afterbegin', data);});
-        </script>
+        <site-header></site-header>
         <div class="DemoReel">
             <div class="ReelText"><h1>Demo Reel</h1></div>
 		    <div class="ReelVideo">
