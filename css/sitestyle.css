@@ -9,33 +9,6 @@ body {
     background-size: 450px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-  
-@media (max-width: 1000px) {
-    body {
-        background-image: url('../imgs/LeftSide.png'), url('../imgs/RightSide.png');
-        background-repeat: repeat-y;
-        background-position: left, right;
-        background-size: 350px;
-    }
-}
-  
-@media (max-width: 700px) {
-    body {
-        background-image: url('../imgs/LeftSide.png'), url('../imgs/RightSide.png');
-        background-repeat: repeat-y;
-        background-position: left, right;
-        background-size: 225px;
-    }
-}
-  
-@media (max-width: 500px) {
-    body {
-        background-image: url('../imgs/LeftSide.png'), url('../imgs/RightSide.png');
-        background-repeat: repeat-y;
-        background-position: left, right;
-        background-size: 150px;
-    }
-}
 
 .Center {
     width: 75%;
@@ -44,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 30px;
 }
   
 .Center img {
@@ -60,9 +34,44 @@ body {
     background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
     color: white;
+    font-size: 25px;
 }
 
 h1 {
     color: white;
     padding: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;  
+	font-weight: 500;
+    color: white;
+    padding: 40px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-size: 350px;
+    }
+    .FollowParagraph {
+        font-size: 23px;
+    }
+}
+  
+@media (max-width: 700px) {
+    body {
+        background-size: 225px;
+    }
+    .FollowParagraph {
+        font-size: 18px;
+    }
+}
+  
+@media (max-width: 500px) {
+    body {
+        background-size: 150px;
+    }
+    .FollowParagraph {
+        font-size: 14px;
+    }
 }
